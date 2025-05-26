@@ -1,0 +1,81 @@
+*{
+    font-family: "Schibsted Grotesk", serif;
+    font-optical-sizing: auto;
+}
+body {
+    background-image: url("images/bg4.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+.heading{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: transparent;
+    padding:1.4rem;
+    border-radius: 2rem;
+    color:black;
+    font-weight: 900;
+    color:beige;
+}
+.features{
+   display: inline-block;
+} 
+.element1{
+    width:10rem;
+    animation: float  4s infinite ease-in-out; 
+    border-radius: 50%;
+}
+.element2{
+    width:10rem;
+    animation: float2  4s infinite ease-in-out; 
+    border-radius: 50%;
+}
+.element3{
+    width:22rem;
+    animation: float2  4s infinite ease-in-out; 
+    border-radius: 50%;
+}
+.celes{
+    margin-top: 11rem;
+}
+@keyframes float2{
+    0% {transform: translateY(0px);}
+    50%{transform: translateY(1rem);}
+    100%{transform: translateY(0rem);}
+}
+@keyframes float {
+    0% {transform: translateY(0px);}
+    50%{transform: translateY(-1rem);}
+    100%{transform: translateY(0rem);}
+}
+.element img{
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+}
+.element p{
+    color:white;
+    text-align: center;
+}
+.elementt img{
+    height: 13rem;
+    width:22rem;
+    border-radius: 50%;
+}
+.elementt p{
+    color:white;
+    text-align: center;
+    margin-top: -0.5rem;
+}

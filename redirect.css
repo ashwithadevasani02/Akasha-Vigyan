@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    width: 100vw;
+    text-align: center;
+}
+body{
+    margin:0;
+    padding:0;
+    width:100vw;
+    overflow: hidden;
+    background-color: black;
+}
+img {
+    width:100vw;
+    height: 100vh;
+    margin-top: 0px;
+}
+.next {
+    position: absolute;
+    font-size: 3rem;
+    color:beige;
+    margin-top:18rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.forward {
+    right: 10%;
+    top: 50%;
+}
+.backward {
+    left: 10%;
+    top: 50%;
+}

@@ -1,0 +1,79 @@
+*{
+    font-family: "Schibsted Grotesk", serif;
+  font-optical-sizing: auto;
+}
+body {
+    background-image: url("bg3.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.direct{
+    color:#cccccc;
+    background-color: transparent;
+    margin: 1rem auto 1rem;
+    text-align: center;
+    height: 7rem;
+    width:60%;
+    line-height:3;
+    font-size:2rem;
+    border-radius:2rem;
+    box-shadow: 2px 2px 15px #2c3f50;
+}
+.direct:hover{
+    box-shadow: 4px 4px 30px #2c3f50;
+    transition:0.5s linear;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    width: 90%; 
+    margin: 1rem auto; 
+    position: relative;
+    overflow: hidden;
+}
+.card {
+    width: 30%; 
+    margin: 2rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    box-shadow: 6px 6px 40px #2c3f50;
+    transition: transform 0.2s ease; 
+}
+.card:hover {
+    transform: scale(1.07);
+    box-shadow: 5px 5px 10px grey;
+}
+.card img {
+    height: 15rem;
+    width: 100%; 
+    border-radius: 2rem 2rem 0 0;
+}
+@media (max-width: 768px) {
+    .card {
+        width: 45%; 
+    }
+}
+@media (max-width: 480px) {
+    .card {
+        width: 90%; 
+    }
+}
+
+

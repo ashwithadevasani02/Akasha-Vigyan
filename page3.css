@@ -1,0 +1,99 @@
+*{
+    font-family: "Schibsted Grotesk", serif;
+     font-optical-sizing: auto;
+}
+body {
+    background-image: url("images/bgpage3.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: relative;
+    overflow-x:hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+h2{
+    color:white;
+    background-color: transparent;
+    margin:4rem ;
+    width: 50%;
+    margin-left:20rem;
+    text-align:center;
+    height:5rem;
+    font-size:3.5rem;
+    border-radius: 2rem;
+    box-shadow:2px 2px 10px grey;
+}
+.userinput{
+    height:2.5rem;
+    width:20rem;
+            margin-left:1rem;  
+    margin-right:1rem;
+    border-radius:2rem;
+    background-color: transparent;
+    box-shadow:2px 2px 5px black;
+    opacity: 1;
+    color:whitesmoke;
+    font-size:1.3rem;
+}
+.userinput::placeholder{
+    font-size:1rem;
+    padding:1rem;
+    opacity: 0.5;
+    color:white;
+
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:-4rem;
+}
+
+#btn{
+    color:white;
+    background-color: transparent;
+    height:2.8rem;
+    width: 5rem;
+    border-radius:1.2rem;
+    margin-left:5rem;
+    box-shadow: 2px 2px 5px grey;
+    font-size:1rem;
+}
+#btn:hover{
+    background-color: #41424c;
+    color: whitesmoke;
+    transition: 0.2s linear;
+    box-shadow:4px 4px 10px grey;
+}
+.content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin-top:2rem;
+    margin-left:3rem;
+    margin-right:3rem;
+}
+.stylecard{
+    background-color: #3b6180;
+    font-size:1.2rem;
+    border-radius:20px;
+    padding:1.5rem;
+    margin-bottom:1rem;
+    width:600px;
+    text-align:center;
+}
+.stylecard p{
+    color:whitesmoke;
+}
+.stylecard p a{
+    color: #03b1fc;
+    text-decoration: none;
+}

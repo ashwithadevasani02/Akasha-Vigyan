@@ -1,0 +1,95 @@
+*{
+    font-family: "Schibsted Grotesk", serif;
+    font-optical-sizing: auto;
+}
+body {
+    background-image: url("images/marsbg.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+.heading{
+background-color: transparent;
+height:4.5rem;
+width:60%;
+margin:1rem auto; 
+font-size:3rem;
+text-align: center;
+color: #f7c392;
+}
+.grp{
+    margin-top:2rem;
+    margin:1rem;
+    height:2rem;
+    width:20rem;
+    border-radius:2rem;
+    background-color: transparent;
+    font-size: 1rem;
+    padding:0.25rem;
+    display: inline;
+    color:white;
+}
+.user{
+    margin-left:20rem;
+}
+.grp::placeholder{
+    font-weight: 800;
+    padding:0.5rem;
+}
+.perform{
+    margin-left:3rem;
+    height:2.5rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    font-weight: 600;
+    width:5rem;
+}
+.perform:hover{
+    background-color:#f7c392 ;
+    color:whitesmoke;
+    transition:0.3s linear; 
+    box-shadow: 2px 2px 5px #f7c392 ;
+    border:transparent;
+}
+.con {
+    height: 60vh;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    border: 2px solid black;  
+    background-color: #c19a6b;
+    border-radius:2rem;
+    display: flex;
+
+}
+.con img{
+    border-radius:2rem 0 0 2rem;  
+    height:100%;
+    width:40%;
+    box-shadow:2px 2px 20px black;
+}
+.text{
+    margin-left:10rem;
+    margin-top:3rem;
+    background-color: #c49a6c;  
+    border-radius: 5px;
+    font-size: 16px;
+    color: black; 
+}
+
+.see {
+    color:black;
+}
+.next i:hover{
+    transform: scale(1.3);
+}
