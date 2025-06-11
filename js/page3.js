@@ -4,6 +4,9 @@ let body=document.querySelector("body");
 let input1=document.querySelector("#inp1");
 let input2=document.querySelector("#inp2");
 let startdate,enddate;
+window.onload=()=>{
+     alert("Dates Range should be less than 7 days!");
+}
 btn.addEventListener("click",async () =>{
      startdate=input1.value;
      enddate=input2.value;

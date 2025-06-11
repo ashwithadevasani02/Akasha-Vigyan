@@ -3,7 +3,7 @@
      font-optical-sizing: auto;
 }
 body {
-    background-image: url("images/bgpage3.jpg");
+    background-image: url("/images/bgpage3.jpg");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -24,7 +24,7 @@ h2{
     background-color: transparent;
     margin:4rem ;
     width: 50%;
-    margin-left:20rem;
+    margin-left:25rem;
     text-align:center;
     height:5rem;
     font-size:3.5rem;
@@ -49,12 +49,14 @@ h2{
     opacity: 0.5;
     color:white;
 
+    
 }
 .text{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left:-4rem;
+    margin-top: 1rem;
 }
 
 #btn{
@@ -96,4 +98,13 @@ h2{
 .stylecard p a{
     color: #03b1fc;
     text-decoration: none;
+}
+.extra{
+    color:white;
+    margin-right: 1rem;
+    margin-left: 80%;
+    margin-top: 1rem !important;
+    border:2px solid grey;
+    border-radius: 1rem;
+    padding:1rem;
 }

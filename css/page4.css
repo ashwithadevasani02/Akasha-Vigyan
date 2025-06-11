@@ -3,7 +3,7 @@
     font-optical-sizing: auto;
 }
 body {
-    background-image: url("images/bg4.jpg");
+    background-image: url("/images/bg4.jpg");
     background-size: cover;
     height: 100vh;
     width: 100vw;
